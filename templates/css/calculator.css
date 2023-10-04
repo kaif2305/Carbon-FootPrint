@@ -1,0 +1,326 @@
+@font-face {
+    font-family: thiccboi-regular;
+    src: url('/thicccboi/fonts/TTF/THICCCBOI-Regular.ttf');
+}
+
+@font-face {
+    font-family: thiccboi-light;
+    src: url('/thicccboi/fonts/TTF/THICCCBOI-Light.ttf');
+}
+
+@font-face {
+    font-family: aboreto-regular;
+    src: url('/Aboreto/Aboreto-Regular.ttf');
+}
+
+#grad {
+  background-image: linear-gradient(white, rgba(121, 198, 121, 0.957));
+}
+#form_inner
+{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+}
+
+#form_table
+{
+    width: 100%;
+    border:none;
+    text-decoration: none;
+}
+
+#select_style
+{
+    text-decoration: none;
+    margin-left: 55px;
+    border: none;
+    width: 100%;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 20%);
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+}
+
+#house
+{
+    text-decoration: none;
+    margin-left: 55px;
+    border: none;
+    width: 100%;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 20%);
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+}
+
+#food
+{
+    text-decoration: none;
+    margin-left: 55px;
+    border: none;
+    width: 100%;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 20%);
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+}
+
+#mileage
+{
+    width: 100%;
+    padding: 9px 5px;
+    font-size: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    /* border-top: 0px; */
+    /* border-right: 0px; */
+    /* border-left: 0px; */
+    font-family: thiccboi-regular;
+}
+
+#appliances
+{
+    width: 100%;
+    padding: 9px 5px;
+    font-size: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    /* border-top: 0px; */
+    /* border-right: 0px; */
+    /* border-left: 0px; */
+    font-family: thiccboi-regular;
+}
+
+#electricity
+{
+    width: 100%;
+    padding: 9px 5px;
+    font-size: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    /* border-top: 0px; */
+    /* border-right: 0px; */
+    /* border-left: 0px; */
+    font-family: thiccboi-regular;
+}
+
+#purchase
+{
+    width: 100%;
+    padding: 9px 5px;
+    font-size: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    /* border-top: 0px; */
+    /* border-right: 0px; */
+    /* border-left: 0px; */
+    font-family: thiccboi-regular;
+}
+
+#gas
+{
+    width: 100%;
+    padding: 9px 5px;
+    font-size: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    /* border-top: 0px; */
+    /* border-right: 0px; */
+    /* border-left: 0px; */
+    font-family: thiccboi-regular;
+}
+
+#restaurent
+{
+    width: 100%;
+    padding: 9px 5px;
+    font-size: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    /* border-top: 0px; */
+    /* border-right: 0px; */
+    /* border-left: 0px; */
+    font-family: thiccboi-regular;
+}
+
+#public
+{
+    width: 100%;
+    padding: 9px 5px;
+    font-size: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    /* border-top: 0px; */
+    /* border-right: 0px; */
+    /* border-left: 0px; */
+    font-family: thiccboi-regular;
+}
+
+#private
+{
+    width: 100%;
+    padding: 9px 5px;
+    font-size: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    /* border-top: 0px; */
+    /* border-right: 0px; */
+    /* border-left: 0px; */
+    font-family: thiccboi-regular;
+}
+
+#flight
+{
+    width: 100%;
+    padding: 9px 5px;
+    font-size: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    /* border-top: 0px; */
+    /* border-right: 0px; */
+    /* border-left: 0px; */
+    font-family: thiccboi-regular;
+}
+
+#type
+{
+    text-decoration: none;
+    margin-left: 55px;
+    border: none;
+    width: 100%;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 20%);
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+}
+
+#pollution
+{
+    text-decoration: none;
+    margin-left: 55px;
+    border: none;
+    width: 100%;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 20%);
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wrapper{
+    /* position: fixed; */
+    margin-right: 50%;
+    margin-left: 50%;
+    margin-top: 3%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #form_btn{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: -109px;
+    text-decoration: none;
+    color: #333;
+    background: white;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  #form_btn span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  #form_btn:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    
+    background: #009E60;
+    color: white;
+    transition: all .35s;
+  }
+  
+  #form_btn:hover{
+    color: #fff;
+  }
+  
+  #form_btn:hover:after{
+    width: 100%;
+    color: white;
+  }
+
+#table_test_align
+  {
+    width: 37%;
+  }
+
+  #total_margin
+  {
+    width: 100%;
+    padding: 9px 5px;
+    font-size: 15px;
+    margin: 8px 0;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    background-color: white;
+    border: 2px solid #333;
+    /* border-top: 0px; */
+    /* border-right: 0px; */
+    /* border-left: 0px; */
+    font-family: thiccboi-regular;
+  }
+
+  #total_table
+  {
+    margin-top: 20px;
+  }
+
+  #p_padd
+  {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: white;
+  }

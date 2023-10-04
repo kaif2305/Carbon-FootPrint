@@ -1,0 +1,47 @@
+<html>
+<body>
+    <link rel="StyleSheet" href="../css/user.css">
+    <div class="main-block">
+        <div class="left-part">
+            <img src="../images/foot.svg"></img>
+            <h1 style="font-size:52px;">Sign up to use our Calculator</h1>
+            <p style="font-size: 25px;">Making yourself aware is the biggest step you can take towards making a positive
+                change.</p><br>
+            <p style="font-size: 25px; margin-top: -4px;">Take that step today!</p>
+        </div>
+        <div id="right-container">
+            <div id="form-align">
+                <button id="sign_btn" onclick="window.location.href = '/';">Signup</button>
+                <button id="log_btn" onclick="window.location.href = '/login';">Login</button>
+                <form action="/signup" method="POST">
+                    <div class="title">
+                        <h2 style="font-size: 40px;">Enter your Details</h2>
+                    </div>
+                    <div class="info">
+                        <input class="fname" type="text" name="sname" placeholder="Full name">
+                        <input type="email" name="semail" placeholder="Email">
+                        <input type="text" name="pincode" placeholder="Area Pincode">
+                        <input type="password" name="pwd" placeholder="Password">
+                        <input type="password" name="conf_pwd" placeholder="Confirm Password">
+                        <select name="status">
+                            <option value="status" selected>Current Status</option>
+                            <option value="student">Student</option>
+                            <option value="professional">Professional</option>
+                            <option value="retired">Retired</option>
+                        </select>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" required><span>I agree to the <a
+                                href="https://www.privacypolicies.com/blog/privacy-policy-template/" style="text-decoration:none; color:black;">CFootprint Privacy
+                                Policy.</a></span>
+                    </div>
+                    <button type="submit" >Sign up</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

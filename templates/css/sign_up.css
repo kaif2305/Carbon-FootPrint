@@ -1,0 +1,152 @@
+@font-face {
+    font-family: thiccboi-regular;
+    src: url('/thicccboi/fonts/TTF/THICCCBOI-Regular.ttf');
+}
+
+@font-face {
+    font-family: thiccboi-light;
+    src: url('/thicccboi/fonts/TTF/THICCCBOI-Light.ttf');
+}
+
+@font-face {
+    font-family: aboreto-regular;
+    src: url('/Aboreto/Aboreto-Regular.ttf');
+}
+
+#grad {
+    background-image: linear-gradient(white, rgba(121, 198, 121, 0.957));
+  }
+.bg-signup
+{
+    background-color: none;
+	width: 35%;
+	height: 45%;
+	justify-content: center;
+	align-items: center;
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* display: none; */
+
+}
+
+.signup-contents
+{
+    height: 100%;
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 13%);
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	/* &:hover {
+		color: #666;
+	} */
+}
+
+#signup
+{
+    font-size: 25px;
+    font-family:thiccboi-light ;
+    margin-bottom: 16px;
+}
+
+input[id=signup_name],
+select {
+    width: 50%;
+    font-family: thiccboi-regular;
+    padding: 12px 6px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 2px 5px rgb(0 0 0 / 10%);
+    border-width: 0.4; 
+    border-radius: 4px;
+}
+
+input[id=signup_tag],
+select {
+    width:20%;
+    font-family: thiccboi-regular;
+    padding: 12px 6px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 2px 5px rgb(0 0 0 / 10%);
+    border-width: 0.4; 
+    border-radius: 4px;
+}
+
+input[id=signup_password],
+select {
+    width: 50%;
+    left: 0px;
+    font-family: thiccboi-regular;
+    padding: 12px 6px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 2px 5px rgb(0 0 0 / 10%);
+    border-width: 0.4; 
+    border-radius: 4px;
+    left: -56px;
+    position: relative;
+}
+
+input[id=confirm_password],
+select {
+    width: 50%;
+    left: 0px;
+    font-family: thiccboi-regular;
+    padding: 12px 6px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 2px 5px rgb(0 0 0 / 10%);
+    border-width: 0.4; 
+    border-radius: 4px;
+    left: -56px;
+    position: relative;
+}
+
+#signup_confirm_button
+{
+    border: none;
+    background-color: rgb(209, 46, 37);
+    color: white;
+    height: 39px;
+    width: 110px;
+    margin-top: 12px;
+    font-size: 15px;
+    left: 0px;
+    font-family: thiccboi-regular;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 13%);
+}
+
+#signup_images
+{
+    margin-top: 15px;
+    height: 12%;
+}
+
+#img_button
+{
+    border:none;
+    width: 28.3%;
+    height: auto;
+    background: none;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 13%);
+    cursor: pointer;
+}

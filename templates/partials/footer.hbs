@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <title>Footer</title>
+    <link rel="StyleSheet" href="../css/footer_style.css">
+    
+</head>
+<body>
+    <div class="footer_container_flex1" >
+        <h1 id="contact_us">Contact US</h1>
+        <form action="/footer" method="post">
+            <input type="text" id="name" name="name" placeholder="Name">
+        <br>
+        <div id="flex_email_phone">
+            <input type="tel" id="phone" name="phone_no" placeholder="Phone">
+            <input type="email" id="email"  name="email" placeholder="Email">    
+        </div>
+        <br>
+        <textarea name="message" placeholder="Message"></textarea>
+        <br>
+        <button type="submit" id="contact_submit" >Submit</button> 
+
+        </form>
+         
+
+        <div id="footer_flex2">
+            <div id="footer_svg">
+                <img src = "../images/C_footprint.svg" alt="My Happy SVG"/>
+            </div>
+            <div class="footer_nav">
+                <a class="footer-hover-underline-animation" href="/">Home</a>
+                <a class="footer-hover-underline-animation" href="/calculator">Calculator</a>
+                <a class="footer-hover-underline-animation" href="/instructions">Instructions</a>
+                <a class="footer-hover-underline-animation" href="/dashboard">Dashboard</a>
+                <a class="footer-hover-underline-animation" href="/about">AboutUs</a>
+                <a class="footer-hover-underline-animation" href="#contact_submit">ContactUS</a>
+            </div>
+        </div> 
+        
+        <div id="email_links_cc_flex">
+            <div id="email_id">23kaif05@gmiail.com</div>
+            <div id="social_links">
+                <button id="svg_btn"><img src="../images/fb.svg" alt="Facebook"></button>
+                <button id="svg_btn"><img src="../images/ig.svg" alt="Instagram"></button>
+                <button id="svg_btn"><img src="../images/twitter.svg" alt="Twitter"></button>
+                <button id="svg_btn"><img src="../images/linkedin.svg" alt="LinkeDIn"></button>
+                
+            </div>
+            <div id="cc_name" >
+                © 2022 Kaif Ahmad
+            </div>
+        </div>
+    </div>
+</body>
+</html>

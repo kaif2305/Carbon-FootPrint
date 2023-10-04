@@ -1,0 +1,123 @@
+@font-face {
+    font-family: thiccboi-regular;
+    src: url('/thicccboi/fonts/TTF/THICCCBOI-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: thiccboi-light;
+    src: url('/thicccboi/fonts/TTF/THICCCBOI-Light.ttf');
+  }
+
+  @font-face {
+    font-family: aboreto-regular;
+    src: url('/Aboreto/Aboreto-Regular.ttf');
+  }
+
+  #grad {
+    background-image: linear-gradient(white, rgba(121, 198, 121, 0.957));
+  }
+.home_flex_container1
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 70px;
+}
+
+#left_container1
+{
+    width: 50%;
+
+}
+
+#right_container1
+{
+    width: 50%;
+    text-align: right;
+}
+
+#calc_your
+{
+    font-size: 57px;
+    font-family: thiccboi-regular;
+    font-weight: bold;
+    padding-top: 90px;
+    
+}
+
+#car_foot
+{
+    font-size: 40px;
+    font-family: thiccboi-regular;
+    font-weight: normal;
+    padding-left: 28px;
+    
+}
+
+#carbon_Q
+{
+    font-size: 20px;
+    font-family: thiccboi-regular;
+    padding-top: 46px;
+    width:73%
+}
+
+#carbon_submit
+{
+    border: none;
+    background-color: #2C2C2C;
+    color: white;
+    height: 42px;
+    width: 155px;
+    margin-top: 30px;
+    font-size: 20px;
+    left: 0px;
+    font-family: thiccboi-regular;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 13%);
+}
+
+#carbon_submit:hover
+{
+    background-color: #000000;
+}
+
+#left_container2
+{
+    width: 30%;
+}
+
+#right_container2
+{
+    width: 70%;
+    text-align: justify;
+}
+
+#question1
+{
+    font-size: 30px;
+    font-family: thiccboi-light;
+    padding-bottom: 12px;
+}
+
+#para1
+{
+    line-height:23px ;
+    font-family: thiccboi-light;
+    padding-bottom: 2px;
+}
+
+
+#left_container3
+{
+    width: 70%;
+    text-align: justify;
+}
+
+#right_container3
+{
+    width: 30%;
+    text-align: right;  
+}
+

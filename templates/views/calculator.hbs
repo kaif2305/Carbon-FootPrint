@@ -1,0 +1,215 @@
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="icon" href="../images/C_icon.png" type="image/gif">
+    <link rel="StyleSheet" href="css/dash_style.css">
+    <link rel="StyleSheet" href="css/header_style.css">
+    <link rel="StyleSheet" href="css/footer_style.css">
+    <link rel="StyleSheet" href="css/aboutus_style.css">
+    <link rel="StyleSheet" href="css/calculator.css">
+    <link rel="StyleSheet" href="css/sign_up.css">
+    <script src="../../src/calc.js"></script>
+    <header>
+        <div id="flex_header">
+            <div id="brand_svg">
+                <img src="images/C_footprint.svg" alt="My Happy SVG" />
+            </div>
+            <div class="navbar">
+                <a class="hover-underline-animation" href="/home">Home</a>
+                <a class="hover-underline-animation" href="/calculator" style="border-bottom:2px solid ;">Calculator</a>
+                <a class="hover-underline-animation" href="/instructions">Instructions</a>
+                <a class="hover-underline-animation" href="/dashboard">Dashboard</a>
+                <a class="hover-underline-animation" href="/about">AboutUs</a>
+                <a class="hover-underline-animation" href="#contact_submit">ContactUS</a>
+            </div>
+        </div>
+    </header>
+</head>
+
+<body>
+    <div id="grad">
+
+    <div id="dash_name">
+        <div>Calculator</div>
+    </div>
+
+    <form action="/calculator" method="post">
+    <fieldset id="form_inner">
+        <fieldset id="household">
+            <legend style="font-size:18px; font-weight:bold">HOUSEHOLD INFORMATION</legend>
+                <table id="form_table">
+                    <tr>
+                        <td id="table_test_align">Number of People living in your House:</td>
+                        <td>
+                            <input type="radio" id="one" name="people" value="1">
+                            <label for="one">1</label>
+                            <input type="radio" id="two" name="people" value="2">
+                            <label for="two">2</label>
+                            <input type="radio" id="three" name="people" value="3">
+                            <label for="Three">3</label>
+                            <input type="radio" id="four" name="people" value="4">
+                            <label for="four">4</label>
+                            <input type="radio" id="five" name="people" value="5">
+                            <label for="five"><b>></b>5</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">Size of your House:</td>
+                        <td>
+                        <select name="house_size" id="house">
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">Water Consumption</td>
+                        <td>
+                            <input type="checkbox" id="wash" name="wash">Washing Machine
+                            <input type="checkbox" id="dish" name="dish">Dish Washer<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">How often do you use these Appliances</td>
+                        <td>
+                            <input type="number" id="appliances" name="water" placeholder="Per Week"></input>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td id="table_test_align">Major Household Purchases per Month</td>
+                        <td>
+                            <input type="number" id="purchase" name="purchase" placeholder="Sofas / Wardrobes / Refrigirator .etc"></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">Electrity Consumption</td>
+                        <td><input type="number" name="electric_bill" id="electricity" placeholder="kWH consumed per Month"></td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">Gas Consumption</td>
+                        <td><input type="number" name="gas_con" id="gas" placeholder="LPG Consumption in Litres per Month"></td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">Do you Recycle these Products?</td>
+                        <td>
+                            <input type="checkbox" id="glass" name="recyc" value="glass">Glass
+                            <input type="checkbox" id="plastic" name="recyc" value="plastic">Plastic
+                            <input type="checkbox" id="paper" name="recyc" value="paper">Paper
+                            <input type="checkbox" id="alu" name="recyc" value="alu">Aluminium
+                            <input type="checkbox" id="steel" name="recyc" value="steel">Steel
+                            <input type="checkbox" id="foodw" name="recyc" value="foodw">Food Waste
+                        </td>
+                    </tr>
+                </table>
+            </fieldset><br>
+
+            <fieldset id="diet">
+                <legend style="font-size:18px; font-weight: bold">DIETARY PREFERENCES</legend>
+                <table id="form_table">
+                    <tr>
+                        <td id="table_test_align">Food Preference</td>
+                        <td>
+                            <select name="food_category" id="food">
+                                <option value="veg">Vegetarian</option>
+                                <option value="nveg">Non-Vegetarian</option>
+                                <option value="vegan">Vegan</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">What kind of food do you generally eat?</td>
+                        <td>
+                            <input type="radio" id="pack" name="food_type" value="pack">Packaged Foods
+                            <input type="radio" id="home" name="food_type" value="home">Home-Made Foods
+                            <input type="radio" id="whole" name="food_type" value="whole">Whole Foods
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">How often do you eat at a Restaurant?</td>
+                        <td>
+                            <input type="number" name="restaurent" id="restaurent" placeholder="Per Week">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset><br>
+
+            <fieldset id="transport">
+                <legend style="font-size:18px; font-weight:bold">TRANSPORT PREFERENCES</legend>
+                <table id="form_table">
+                    <tr>
+                        <td id="table_test_align">Select Fuel Type</td>
+                        <td>
+                            <input type="radio" id="petrol" name="Fuel_type" value="petrol">
+                            <label for="petrol">Petrol</label>
+                            <input type="radio" id="disel" name="Fuel_type" value="disel">
+                            <label for="disel">Disel</label>
+                            <input type="radio" id="electric" name="Fuel_type" value="electric">
+                            <label for="electric">Electric</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">What Pollution Emission Standards is your Compliant to?</td>
+                        <td>
+                            <select name="BSV" id="pollution">
+                                <option value="bs4">BS-IV</option>
+                                <option value="bs6">BS-VI</option>
+                                <option value="ev">Non-compliant</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">Enter the Mileage of your car</td>
+                        <td><input type="number" name="car_mil" id="mileage" placeholder="KM/L"></td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">Select the type of your car</td>
+                        <td>
+                            <select name="car_type" id="type">
+                                <option value="hatchback">Hatchback</option>
+                                <option value="Sedan">Sedan</option>
+                                <option value="SUV">SUV</option>
+                                <option value="Mini">Sports Car</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">Distance Travelled in Public Transport</td>
+                        <td><input type="number" name="dist_pub" id="public" name="public" placeholder="Approximate Estimate in KM"></td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">Distance Travelled in Private Transport</td>
+                        <td><input type="number" name="dist_priv" id="private" name="priv" placeholder="Approximate Estimate in KM"></td>
+                    </tr>
+                    <tr>
+                        <td id="table_test_align">Flights Taken Per Year</td>
+                        <td><input type="number" name="fight" id="flight" name="flight" placeholder="Approx. Number of flights taken"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset id="total_table">
+                <table id="form_table">
+                    <td id="table_test_align">Total Score :</td>
+                        <td><div id="total_margin"><p id="p_padd" name="scoreee" aria-placeholder="Score">{{score}}</p></div></td>
+                </table>
+                    
+            </fieldset>
+
+            <br>
+            <div class="wrapper">
+                <button id="form_btn">Calculate!</a>
+            </div>
+
+            
+
+        </fieldset>
+    </form>
+
+
+
+
+    {{>footer}}
+    </div>
+</body>
+
+</html>

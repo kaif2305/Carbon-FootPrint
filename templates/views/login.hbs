@@ -1,0 +1,35 @@
+<html>
+<body>
+    <link rel="StyleSheet" href="../css/user.css">
+    <div class="main-block">
+        <div class="left-part">
+            <img src="../images/foot.svg"></img>
+            <h1 style="font-size:52px;">Log in to use our Calculator</h1>
+            <p style="font-size: 25px;">Making yourself aware is the biggest step you can take towards making a positive
+                change.</p><br>
+            <p style="font-size: 25px; margin-top: -4px;">Take that step today!</p>
+        </div>
+        <div id="right-container">
+            <div id="form-align">
+                <button id="sign_btn" onclick="window.location.href = '/';">Signup</button>
+                <button id="log_btn" onclick="window.location.href = '/login';">Login</button>
+                <form action="/login" method="post">
+                    <div class="title">
+                        <h2 style="font-size: 40px;">Log in</h2>
+                    </div>
+                    <div class="info">
+                        <input type="text" name="email" placeholder="Email">
+                        <input type="password" name="pwd" placeholder="Password">
+                    </div>
+                    <div class="checkbox">
+                    </div>
+                    <button type="submit" onclick="window.location.href = '/calculate';">Log in</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

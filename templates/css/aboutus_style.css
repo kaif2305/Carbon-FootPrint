@@ -1,0 +1,27 @@
+@font-face {
+    font-family: thiccboi-regular;
+    src: url('/thicccboi/fonts/TTF/THICCCBOI-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: thiccboi-light;
+    src: url('/thicccboi/fonts/TTF/THICCCBOI-Light.ttf');
+  }
+
+
+  #grad {
+    background-image: linear-gradient(white, rgba(121, 198, 121, 0.957));
+  }
+
+.about_text
+{
+    font-family: athiccboi-light;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 38px;
+    text-align: justify;
+    word-spacing: 4px;
+
+}

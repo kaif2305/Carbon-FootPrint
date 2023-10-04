@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link   rel="icon" href="../images/C_icon.png" type="image/gif">
+    <link rel="StyleSheet" href="css/dash_style.css">
+    <link rel="StyleSheet" href="css/header_style.css">
+    <link rel="StyleSheet" href="css/footer_style.css">
+    <header>
+        <div id="flex_header">
+            <div id="brand_svg">
+                <img src = "images/C_footprint.svg" alt="My Happy SVG"/>
+            </div>
+            <div class="navbar">
+                <a class="hover-underline-animation" href="/home">Home</a>
+                <a class="hover-underline-animation" href="/calculator">Calculator</a>
+                <a class="hover-underline-animation" href="/instructions">Instructions</a>
+                <a class="hover-underline-animation" href="/dashboard" style="border-bottom:2px solid ;">Dashboard</a>
+                <a class="hover-underline-animation" href="/about">AboutUs</a>
+                <a class="hover-underline-animation" href="#contact_submit">ContactUS</a>
+            </div>
+        </div>
+        
+    </header>
+</head>
+
+<body>
+    <div id="grad">
+
+    <div id="dash_name">
+        <div>Dashboard</div>
+    </div>
+    <br><br>
+    <div class="container_flex1">
+            <div class="list">
+            <ul align="justify">
+                <li>
+                    Here you can see the users with the lowest carbon footprint score.
+                </li>
+                <li>
+                    If you see your name here, congratulations!
+                </li>
+                <li>
+                    If not, work harder to improve your score and reduce your carbon footprint.
+                    <br>Here are few tips to help you reduce your footprint:<ol>
+                        <li> Turn off the lights while leaving the house </li>
+                        <li> Close the tap properly everytime you use it</li>   
+                        <li> Use jute bags instead of paper or plastic bags</li>     
+                        <li> Follow the three R's: Reuse, Recylce, Reduce</li>    
+                        <li> Do not use Single-use plastic</li>
+                    </ol>
+                </li>
+                <li>
+                    Hope to see you on the list next time :)
+                </li>
+        </div>
+        <div id="table_container">
+            
+            {{!-- <script id="document-template" type="text/x-handlebars-template">
+            <table id="customers">
+                <tr>
+                    <th><b>Rank</b></th>
+                    <th><b>Name</b></th>
+                    <th><b>Score</b></th>
+                </tr>
+                <tbody>
+                    {{#each array}}
+                    <tr>
+                    <td>1</td>
+                    <td>{{sname}}</td>
+                    <td></td>
+                </tr>
+                {{/each}}
+                </tbody>
+                
+
+            </table>
+            </script> --}}
+
+            <table id="customers">
+                <tr>
+                    <th><b>Rank</b></th>
+                    <th><b>Name</b></th>
+                    <th><b>Score</b></th>
+                </tr>
+                    <tr>
+                    <td>1</td>
+                    <td>Kaif Ahmad</td>
+                    <td>210</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ishaan Lonial</td>
+                    <td>280</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Test</td>
+                    <td>320</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Ram</td>
+                    <td>350</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    
+    {{>footer}}
+    </div>
+</body>
+
+</html>

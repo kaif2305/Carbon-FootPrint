@@ -1,0 +1,74 @@
+@font-face {
+    font-family: thiccboi-regular;
+    src: url('/thicccboi/fonts/TTF/THICCCBOI-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: aboreto-regular;
+    src: url('/Aboreto/Aboreto-Regular.ttf');
+  }
+
+
+#flex_header
+{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 83px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#brand_svg
+{
+    width: 11%;
+    left: 0px;
+    text-align: left;
+    padding-top: 0px;
+    line-height: 34px;
+    font-size: 17px;
+}
+.navbar
+{
+  width: 51%;
+    padding-top: 8px;
+    position: absolute;
+    word-spacing: 25px;
+    line-height: 34px;
+    font-size: 17px;
+    right: 0px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    font-family: thiccboi-regular;
+    color: black;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -1px;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.15s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+

@@ -1,0 +1,157 @@
+
+@font-face {
+    font-family: thiccboi-regular;
+    src: url('/thicccboi/fonts/TTF/THICCCBOI-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: thiccboi-light;
+    src: url('/thicccboi/fonts/TTF/THICCCBOI-Light.ttf');
+  }
+
+  @font-face {
+    font-family: aboreto-regular;
+    src: url('/Aboreto/Aboreto-Regular.ttf');
+  }
+    .main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 25px;
+    padding-right:25px;
+    padding-bottom: 25px;
+    background: #fff; 
+    }
+    .left-part, form {
+    padding: 25px;
+    }
+    .left-part {
+    text-align: center;
+    }
+    .fa-graduation-cap {
+    font-size: 72px;
+    }
+    form {
+      background-image: linear-gradient(white, rgba(121, 198, 121, 0.957));
+    }
+    .title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    }
+    .info {
+    display: flex;
+    flex-direction: column;
+    }
+    input{
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    }
+    select{
+        padding: 5px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        font-size: 18px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid #000;
+    }
+    input::placeholder {
+    color: #000;
+    }
+    option:focus {
+    border: none;
+    }
+    option {
+    background: #fff; 
+    border: none;
+    }
+    .checkbox input {
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+    }
+    .checkbox a {
+    color: white;
+    }
+    .checkbox a:hover {
+    color: #367c37;
+    }
+    .btn-item, button {
+    padding: 10px 5px;
+    margin-top: 20px;
+    border-radius: 5px; 
+    border: none;
+    background: black; 
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    transition: all .35s;
+    }
+    .btn-item {
+    display: inline-block;
+    margin: 20px 5px 0;
+    }
+    button {
+    width: 30%;
+    padding: 15px 15px;
+    font-size: 21px;
+    }
+    button:hover, .btn-item:hover {
+    background: #fff;
+    color: black;
+    transition: all .35s;
+    }
+    @media (min-width: 568px) {
+    html, body {
+    height: 100%;
+    }
+    .main-block {
+    flex-direction: row;
+    height: calc(100% - 50px);
+    }
+    .left-part, form {
+    flex: 1;
+    height: auto;
+    }
+    }
+
+#right-container
+{
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+}
+
+#form-align
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%s;
+}
+#log_btn
+{
+  text-decoration: none;
+  font-size: 12px;
+  margin-bottom: 12px;
+  margin-top: 45px;
+  width: 100px;
+ 
+}
+
+#sign_btn
+{
+  text-decoration: none;
+  font-size: 12px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  width: 100px;
+  margin-left: 375px;
+}
